@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		18B645292B6E17F200F57F3D /* RedFinTestSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B645282B6E17F200F57F3D /* RedFinTestSwiftUIApp.swift */; };
-		18B6452B2B6E17F200F57F3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B6452A2B6E17F200F57F3D /* ContentView.swift */; };
 		18B6452D2B6E17F200F57F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B6452C2B6E17F200F57F3D /* Assets.xcassets */; };
 		18B645302B6E17F200F57F3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B6452F2B6E17F200F57F3D /* Preview Assets.xcassets */; };
 		18B6453A2B6E17F300F57F3D /* RedFinTestSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B645392B6E17F300F57F3D /* RedFinTestSwiftUITests.swift */; };
 		18B645442B6E17F300F57F3D /* RedFinTestSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B645432B6E17F300F57F3D /* RedFinTestSwiftUIUITests.swift */; };
 		18B645462B6E17F300F57F3D /* RedFinTestSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B645452B6E17F300F57F3D /* RedFinTestSwiftUIUITestsLaunchTests.swift */; };
+		18B6455B2B6E189200F57F3D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B6455A2B6E189200F57F3D /* MainView.swift */; };
+		18B6455F2B6E18AB00F57F3D /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B6455E2B6E18AB00F57F3D /* MainViewModel.swift */; };
+		18B645612B6E18BC00F57F3D /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B645602B6E18BC00F57F3D /* MainModel.swift */; };
+		18B645632B6E18C600F57F3D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B645622B6E18C600F57F3D /* MapView.swift */; };
+		18B6456A2B6E18F100F57F3D /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B645692B6E18F100F57F3D /* MapViewModel.swift */; };
+		18B6456D2B6E1AA000F57F3D /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B6456C2B6E1AA000F57F3D /* DateExtension.swift */; };
+		18B6456F2B6E1AA800F57F3D /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B6456E2B6E1AA800F57F3D /* StringExtension.swift */; };
+		18B645712B6E1B4900F57F3D /* FoodTruckError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B645702B6E1B4900F57F3D /* FoodTruckError.swift */; };
+		18B645732B6E20B900F57F3D /* FoodTruckAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B645722B6E20B900F57F3D /* FoodTruckAnnotation.swift */; };
+		18B645752B6E218E00F57F3D /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B645742B6E218E00F57F3D /* PlaceModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +45,6 @@
 /* Begin PBXFileReference section */
 		18B645252B6E17F200F57F3D /* RedFinTestSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedFinTestSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B645282B6E17F200F57F3D /* RedFinTestSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedFinTestSwiftUIApp.swift; sourceTree = "<group>"; };
-		18B6452A2B6E17F200F57F3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		18B6452C2B6E17F200F57F3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18B6452F2B6E17F200F57F3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		18B645352B6E17F300F57F3D /* RedFinTestSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedFinTestSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +52,16 @@
 		18B6453F2B6E17F300F57F3D /* RedFinTestSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedFinTestSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B645432B6E17F300F57F3D /* RedFinTestSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedFinTestSwiftUIUITests.swift; sourceTree = "<group>"; };
 		18B645452B6E17F300F57F3D /* RedFinTestSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedFinTestSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18B6455A2B6E189200F57F3D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		18B6455E2B6E18AB00F57F3D /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		18B645602B6E18BC00F57F3D /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		18B645622B6E18C600F57F3D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		18B645692B6E18F100F57F3D /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		18B6456C2B6E1AA000F57F3D /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		18B6456E2B6E1AA800F57F3D /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		18B645702B6E1B4900F57F3D /* FoodTruckError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckError.swift; sourceTree = "<group>"; };
+		18B645722B6E20B900F57F3D /* FoodTruckAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckAnnotation.swift; sourceTree = "<group>"; };
+		18B645742B6E218E00F57F3D /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +112,10 @@
 		18B645272B6E17F200F57F3D /* RedFinTestSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				18B6456B2B6E1A8800F57F3D /* Utils */,
 				18B645282B6E17F200F57F3D /* RedFinTestSwiftUIApp.swift */,
-				18B6452A2B6E17F200F57F3D /* ContentView.swift */,
+				18B645522B6E181000F57F3D /* MainView */,
+				18B645532B6E181800F57F3D /* MapView */,
 				18B6452C2B6E17F200F57F3D /* Assets.xcassets */,
 				18B6452E2B6E17F200F57F3D /* Preview Content */,
 			);
@@ -125,6 +145,85 @@
 				18B645452B6E17F300F57F3D /* RedFinTestSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = RedFinTestSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		18B645522B6E181000F57F3D /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				18B645592B6E184500F57F3D /* View */,
+				18B645582B6E183E00F57F3D /* ViewModel */,
+				18B645572B6E183A00F57F3D /* Model */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		18B645532B6E181800F57F3D /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				18B645562B6E183300F57F3D /* View */,
+				18B645552B6E182B00F57F3D /* ViewModel */,
+				18B645542B6E182100F57F3D /* Model */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		18B645542B6E182100F57F3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18B645742B6E218E00F57F3D /* PlaceModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18B645552B6E182B00F57F3D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18B645692B6E18F100F57F3D /* MapViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18B645562B6E183300F57F3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18B645622B6E18C600F57F3D /* MapView.swift */,
+				18B645722B6E20B900F57F3D /* FoodTruckAnnotation.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18B645572B6E183A00F57F3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18B645602B6E18BC00F57F3D /* MainModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18B645582B6E183E00F57F3D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18B6455E2B6E18AB00F57F3D /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18B645592B6E184500F57F3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18B6455A2B6E189200F57F3D /* MainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18B6456B2B6E1A8800F57F3D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				18B6456C2B6E1AA000F57F3D /* DateExtension.swift */,
+				18B6456E2B6E1AA800F57F3D /* StringExtension.swift */,
+				18B645702B6E1B4900F57F3D /* FoodTruckError.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +356,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18B6452B2B6E17F200F57F3D /* ContentView.swift in Sources */,
+				18B645752B6E218E00F57F3D /* PlaceModel.swift in Sources */,
+				18B6456D2B6E1AA000F57F3D /* DateExtension.swift in Sources */,
+				18B645632B6E18C600F57F3D /* MapView.swift in Sources */,
+				18B6455B2B6E189200F57F3D /* MainView.swift in Sources */,
+				18B645712B6E1B4900F57F3D /* FoodTruckError.swift in Sources */,
 				18B645292B6E17F200F57F3D /* RedFinTestSwiftUIApp.swift in Sources */,
+				18B6456F2B6E1AA800F57F3D /* StringExtension.swift in Sources */,
+				18B645612B6E18BC00F57F3D /* MainModel.swift in Sources */,
+				18B6455F2B6E18AB00F57F3D /* MainViewModel.swift in Sources */,
+				18B6456A2B6E18F100F57F3D /* MapViewModel.swift in Sources */,
+				18B645732B6E20B900F57F3D /* FoodTruckAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,9 +545,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = example.RedFinTestSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -466,9 +577,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = example.RedFinTestSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
